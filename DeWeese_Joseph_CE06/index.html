@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CE06: HTML Forms</title>
+</head>
+<body>
+
+<form id="fillerUp">
+<h1 id="titleHeading">Problem #1:  Filler Up!</h1>
+<br>
+<h2 id="prob">This calculator will convert gallons of milk into other equivalents such as Cups, Pints and Quarts.</h2>
+<br>
+<fieldset>
+    <legend>Choose unit of measure for converstion</legend>
+        <input type="radio"  id="quarts" value="Quarts" checked><label for="quarts">Quarts</label>
+        <input type="radio" id="pints" value="Pints"><label for="pints">Pints</label>
+        <input type="radio" id="cups" value="Cups" ><label for="cups">Cups</label><br>
+</fieldset>
+    <br>
+    <input type="number" id="numOfGall" required min="0" placeholder="Enter Total Gallons" ><label for="numOfGall"></label><br>
+    <br>
+    <input type="button" id="calcGallons" value="Calculate Gallons"><br>
+    <br>
+    <h2 id="numOfQuarts"></h2><br>
+     <h2 id="numOfPints"></h2><br>
+     <h2 id="numOfCups"></h2><br>
+    <br>
+    <h2 id="totGall"></h2>
+
+
+
+
+
+
+
+</form>
+<script src="JS/script.js"></script>
+
+</body>
+</html>
